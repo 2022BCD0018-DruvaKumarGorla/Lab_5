@@ -1,0 +1,56 @@
+# ===============================
+# OS / Editor files
+# ===============================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+
+# ===============================
+# Docker
+# ===============================
+jenkins_home/
+docker_data/
+*.log
+
+# Ignore Docker temporary files
+**/docker-compose.override.yml
+
+# ===============================
+# Jenkins
+# ===============================
+secrets/
+users/
+jobs/
+workspace/
+
+# ===============================
+# Build / Cache
+# ===============================
+target/
+build/
+dist/
+
+# ===============================
+# Misc
+# ===============================
+*.tmp
+*.bak
+
+/2022BCD0018(Lab_5(MLOps(B_1)))
+2022BCD0018(Lab_5(MLOps(B_1)))
+/Lab 5.1
+Lab 5.1
